@@ -16,5 +16,11 @@ namespace Clean.CepValidator.Test
         {
             Assert.That(CepValidator.Validate(""), Is.EqualTo(false));
         }
+
+        [Test, Description("ensure CepValidator returns true if a valid cep is provided.")]
+        public void CepValidator_ValidCep_ReturnsTrue()
+        {
+            Assert.That(CepValidator.Validate("12345-678"), Is.EqualTo(true));
+        }
     }
 }
