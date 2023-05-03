@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <Title>Clean Cep Validator</Title>
     <Authors>Barthmosz</Authors>
-    <Description>An simple and clean cep validator.</Description>
+    <Description>A simple and clean cep validator.</Description>
     <PackageProjectUrl>https://github.com/Barthmosz/clean-csharp-email-validator</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Barthmosz/clean-csharp-email-validator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
