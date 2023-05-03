@@ -3,6 +3,27 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <Title>Clean Cep Validator</Title>
+    <Authors>Barthmosz</Authors>
+    <Description>An simple and clean cep validator.</Description>
+    <PackageProjectUrl>https://github.com/Barthmosz/clean-csharp-email-validator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Barthmosz/clean-csharp-email-validator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Cep;Validator;Validation</PackageTags>
+    <Version>1.0.0</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
